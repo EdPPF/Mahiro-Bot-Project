@@ -1,6 +1,8 @@
+import discord
+
 def handle_response(message) -> str:
     about = "Mahiro Bot V 1.0\n- Código disponível em:\nhttps://github.com/EdPPF/Mahiro-Bot-Project.git"
-    coms = ["`!que`", "`!com`", "`!help`"]
+    coms = ["`!que`", "`!com`", "`!help`", "`!image`"]
     help = "Para uma lista de comandos, digíte `!com`. Para receber uma resposta minha no privado, inicie sua mensagem com `?`."
 
     usr_msg = message.lower()
@@ -16,3 +18,9 @@ def handle_response(message) -> str:
     
     if (usr_msg == "!help"):
         return help
+    
+    if (usr_msg == "!image"):
+        image_url = "https://github.com/EdPPF/Mahiro-Bot-Project/tree/master/imgs/idkwtf.jpg"
+        return f"UwUpsie\n {image_url}"
+
+    return "https://github.com/EdPPF/Mahiro-Bot-Project/tree/master/imgs/oopsie.png"

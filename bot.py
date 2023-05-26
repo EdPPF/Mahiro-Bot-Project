@@ -2,6 +2,7 @@ import os
 import discord
 import responses
 from dotenv import load_dotenv
+from discord.ext import commands
 
 async def send_message(message, user_message, is_private):
     try:
