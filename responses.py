@@ -1,6 +1,6 @@
 import discord
 
-def handle_response(message) -> str:
+def handle_response(message):
     about = "Mahiro Bot V 1.0\n- Código disponível em:\nhttps://github.com/EdPPF/Mahiro-Bot-Project.git"
     coms = ["`!que`", "`!com`", "`!help`", "`!image`"]
     help = "Para uma lista de comandos, digíte `!com`. Para receber uma resposta minha no privado, inicie sua mensagem com `?`."
