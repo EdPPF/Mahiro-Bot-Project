@@ -20,7 +20,7 @@ def handle_response(message):
         return help
     
     if (usr_msg == "!image"):
-        image_url = "https://github.com/EdPPF/Mahiro-Bot-Project/tree/master/imgs/idkwtf.jpg"
-        return f"UwUpsie\n {image_url}"
+        image_url = "https://github.com/EdPPF/Mahiro-Bot-Project/tree/Mahiron/imgs/idkwtf.jpg"
+        return f"{image_url}"
 
-    return "https://github.com/EdPPF/Mahiro-Bot-Project/tree/master/imgs/oopsie.png"
+    return "UwUpsie\nhttps://github.com/EdPPF/Mahiro-Bot-Project/tree/Mahiron/imgs/oopsie.png"
