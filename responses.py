@@ -42,5 +42,3 @@ def handle_response(message):
     random_image = image["response"][random_img_item]
     if (usr_msg == "!image"):
         return f"{random_image}"
-
-    return "UwUpsie\nhttps://github.com/EdPPF/Mahiro-Bot-Project/tree/Mahiron/imgs/oopsie.png"
