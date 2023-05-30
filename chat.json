@@ -1,0 +1,12 @@
+[
+    {
+        "input_type": "call",
+        "user_input": ["mahiro", "mahiron"],
+        "response": ["Aqui!", "Oi~", "Presente!"]
+    },
+    {
+        "input_type": "image",
+        "user_input": [],
+        "response": ["https://github.com/EdPPF/Mahiro-Bot-Project/tree/Mahiron/imgs/idkwtf.jpg", "https://github.com/EdPPF/Mahiro-Bot-Project/tree/Mahiron/imgs/imploded.jpg"]
+    }
+]
